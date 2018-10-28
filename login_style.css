@@ -1,0 +1,56 @@
+body{
+    font-family:Palatino Linotype;
+}
+/* Bordered form */
+
+form {border: /*3px solid #f1f1f1*/none;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button {
+ background-color: tomato;
+ border: none;
+ color: white;
+ padding: 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 14px;
+ margin: 4px 2px;
+ cursor: pointer;
+    
+}
+
+    
+.button3{border-radius: 10px;}
+.button3:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50), 0 17px 50px 0 rgba(0,0,0,0.19);
+     background-color: #333333;
+}
+
+
+.container1{
+    padding: 27px;
+
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid tomato;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}

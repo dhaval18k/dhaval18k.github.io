@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family:Palatino Linotype;
+}
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 700px; /* Should be removed. Only for demonstration */
+}
+
+.fa1{
+    font-size: 50px;
+    color: black;
+}
+ .tk
+        {
+            font-size: 40px;
+            color: black;
+        }
+        .btn
+        {
+            font-size: 20px;
+            border-radius: 5px;
+            height: 40px;
+            width: 150px;
+            color: white;
+            background: tomato;
+        }
